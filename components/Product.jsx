@@ -4,7 +4,7 @@ import Link from 'next/link';
 // Required to have a link for the image inside of the sanity dashboard
 import { urlFor } from '../lib/client';
 
-const Product = ({ product : {image, name, slug, price } }) => {
+const Product = ({ product : { image, name, slug, price } }) => {
     return (
       <div>
         <Link href={`/product/${slug.current}`}>
