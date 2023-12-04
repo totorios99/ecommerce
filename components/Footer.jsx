@@ -4,7 +4,7 @@ import { AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai';
 const Footer = () => {
     return (
       <div className="footer-container">
-        <p>2022 Toto Commerce All rights reserved</p>
+        <p>2023 Cuau Store. Todos los derechos reservados</p>
         <p className="icons">
           <AiFillInstagram />
           <AiOutlineTwitter />
